@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #666666;
+    display: flex;
+}
+
+
+/* navigation */
+
+nav {
+    background-color: #666666;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    font-size: 1.2em;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5em
+}
+
+
+
+
+/* section */
+
+section.welcome {
+    padding: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e0e0e0 url('../img/welcome.jpg') center center/cover no-repeat scroll;
+    color: white;
+}
+
+section.welcome h1 {
+    font-size: 4em;
+    font-weight: normal;
+    margin: 3%;
+}
+
+section.welcome .subtitle {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+section.plot {
+    display: flex;
+    flex-direction: row;
+}
+
+section.text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Plot */
+
+div .text {
+
+}
