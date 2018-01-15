@@ -60,10 +60,7 @@ section.welcome .subtitle {
     font-weight: normal;
 }
 
-section.plot {
-    display: flex;
-    flex-direction: row;
-}
+
 
 section.text {
     display: flex;
@@ -72,6 +69,41 @@ section.text {
 
 /* Plot */
 
-div .text {
+section.plot {
+    display: flex;
+    /* flex-direction: row; */
+    background-color: rgb(196, 196, 196);
+    padding: 5em;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+div.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+
+
+
+}
+img {
+  height: 20em;
+}
+section.plot > div {
+    display: flex;
+    flex-direction: row;
+    width: 50em;
+}
+
+section.plot .tagline {
+    font-size: 2em;
+
+}
+
+.main-text {
+    font-size: 1.3em;
+}
+section.plot > h1 {
+    font-size: 3em;
 }
